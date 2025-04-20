@@ -31,7 +31,7 @@ export default function Home() {
       <div className={style.skill}>
         <Skill/>
       </div>
-      <div className={style.contact}>
+      <div className={style.contact} id={"contact"}>
         <Contact/>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Navbar = () =>{
                 <div className={style.items}>
                     <div className={style.item}><Link href={"#about"}>About</Link></div>
                     <div className={style.item}>Service</div>
-                    <div className={style.item}>Contact</div>
+                    <div className={style.item}><Link href={"#contact"}>Contact</Link></div>
                 </div>
             </div>
         </>

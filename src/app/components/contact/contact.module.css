@@ -1,16 +1,21 @@
+.footer
+{
+    padding: 50px;
+    display: block;
+    height: 90vh;
+    background-color: black;
+}
+
 .contact
 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 60vh;
-    background-color: black;
 }
 
 .title
 {
-    margin-top: -100px;
-    padding: 50px 0px;
+    padding: 30px 0;
 }
 
 .item
@@ -91,4 +96,20 @@
     color: black;
     transition: .4s ease;
     border: none;
+}
+
+.socialMedia
+{
+    position: relative;
+    border-top: 1px #fff inset;
+    margin-top: 100px;
+    padding: 80px;
+    height: 100%;
+}
+
+.socialMedia p
+{
+    text-align: center;
+    text-decoration:underline;
+    margin-top: 5px;
 }
