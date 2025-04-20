@@ -1,0 +1,58 @@
+.skill
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.skill h2
+{
+    position: relative;
+}
+
+.skill h2::after
+{
+    position: absolute;
+    background-color: #fff;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    transform: translateX(50%);
+}
+
+.listSkill
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    width: max-content;
+    height: 90px;
+    background-color: #ffffffe0;
+    border-radius: 10px;
+}
+
+.item
+{
+    padding: 1px 40px;
+}
+
+.iconSkill
+{
+    padding: 2px;
+    object-fit: contain;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.iconSkill:hover
+{
+    transform: translateY(-20%);
+    transition: .5s ease;
+}

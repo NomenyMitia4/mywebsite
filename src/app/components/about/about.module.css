@@ -1,0 +1,28 @@
+.about
+{
+    height: 80vh;
+}
+
+.spacing
+{
+    height: 60px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.left
+{
+    width: 40%;
+    line-height: 30px;
+}
+
+.left p
+{
+    margin-top: 20px;
+}
